@@ -9,11 +9,10 @@
 
 body {
     overflow: hidden;
-
-    >* {
+}
+body>* {
         left: -.25vw;
         top: -.25vh;
-    }
 }
 
 @keyframes floating {
